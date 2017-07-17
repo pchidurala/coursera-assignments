@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pseudo Class Selectors</title>
-<style>
-/* Styles go here. */
-	* {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -141,29 +133,3 @@ p {
     width: 100%;
   }
 }
-
-</style>
-</head>
-<body>
-<h1>Our Menu</h1>
-<div class="row">
-  <div class="col-lg-4 col-md-6">
-  <h2 id="hd1">Chicken</h2>
-  <p>
-    Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
-  </p>
-</div>
-<div class="col-lg-4 col-md-6">
-  <h2 id="hd2">Beef</h2>
-  <p>
-    Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
-  </p>   
-</div>
-<div class="col-lg-4 col-md-6">
-  <h2 id="hd3">Sushi</h2>
-  <p>
-    Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in Lecture 23.)
-  </p>
-</div>
-</div>
-</html>
